@@ -36,7 +36,7 @@ describe("Todolist Testing", () => {
     expect(all[0].completed).toBe(true);
   });
 
-  test("retrive all todos that are overdue", () => {
+  test("bring back all todos that are overdue", () => {
     let listOfTodos = overdue();
 
     expect(
@@ -46,7 +46,7 @@ describe("Todolist Testing", () => {
     ).toBe(true);
   });
 
-  test("retrive all todos that are dueToday", () => {
+  test("bring back all todos that are dueToday", () => {
     let listOfTodos = dueToday();
 
     expect(
@@ -56,7 +56,7 @@ describe("Todolist Testing", () => {
     ).toBe(true);
   });
 
-  test("retrive all todos that are dueLater", () => {
+  test("bring back all todos that are dueLater", () => {
     let listOfTodos = dueLater();
 
     expect(
